@@ -4,6 +4,7 @@
 ## creates a special "matrix object that can cache inverse
 
 makeCacheMatrix <- function(x = matrix()) {
+  #caches the matrix and provides framework to cache inverse
   inverse <- NULL
   set <- function(y){
     x <<- y
